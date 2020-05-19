@@ -152,3 +152,20 @@ h1 {
   width: 100%;
   height: 100%;
 }
+
+@media only screen and (max-width: 450px) {
+  #deutschland-arbeiten img {
+    width: 200px;
+    height: auto;
+  }
+
+  #forschen img {
+    width: 300px;
+    height: auto;
+  }
+
+  #karriere img {
+    width: 310px;
+    height: auto;
+  }
+} 
