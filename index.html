@@ -7,6 +7,7 @@
     <link rel="icon" type="image/gif/png" href="./images/germany-flag.png">
     <title>Warum Deutsch Lernen?</title>
     <link rel="stylesheet" href="./css/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/custom.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
     <script src="./js/jquery/jquery-3.4.1.js"></script>
@@ -17,41 +18,17 @@
     <nav class="navbar navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="./images/germany-flag.png" width="40" height="40" alt="">
-            <span style="color: black;"> Deutschkurs A1.1 </span>
+            <span style="color: black;"> Deutschkurs A 1.1 </span>
         </a>
     </nav>
 
-    <!-- 
-    <div class="container ml-0 pl-0 position-absolute">
-        <div class="col-1">
-            <div class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                    aria-controls="v-pills-home" aria-selected="true"><img src="/images/circle.svg" width="10"
-                        height="10" alt=""></a>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                    aria-controls="v-pills-profile" aria-selected="false"><img src="/images/circle.svg" width="10"
-                        height="10" alt=""></a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                    aria-controls="v-pills-messages" aria-selected="false"><img src="/images/circle.svg" width="10"
-                        height="10" alt=""></a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                    aria-controls="v-pills-settings" aria-selected="false"><img src="/images/circle.svg" width="10"
-                        height="10" alt=""></a>
-            </div>
-        </div>
-
-    </div> -->
-
-
-    <!-- <div class="tab">
-        <button class="tab" type="button"><img src="/images/circle.svg" width="10" height="10" alt=""></button>
-        <button type="button"><img src="/images/circle.svg" width="10" height="10" alt=""></button>
-        <button type="button"><img src="/images/circle.svg" width="10" height="10" alt=""></button>
-      </div> -->
-
-    <section id="einführung">
+    <section data-aos="fade-in" data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out" id="einführung">
         <div class="container">
-            <div class="section-legend"><h4>Einführung</h4></div>
+            <div class="section-legend">
+                <h4>Einführung</h4>
+            </div>
             <h1 class="text-center">Warum Deutsch Lernen?</h1>
             <div class="row">
                 <div class="video-container">
@@ -487,7 +464,7 @@
                 </div>
             </div>
 
-            
+
             <p>100 Millionen Menschen in Österreich, der Schweiz und Deutschland sprechen Deutsch.
                 Damit ist Deutsch die meistgesprochene Muttersprache in Europa und gehört zu den zehn
                 am häufigsten gesprochenen Sprachen der Welt.</p>
@@ -497,9 +474,12 @@
 
     </section>
 
-    <section id="studieren">
+    <section data-aos="slide-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
+        id="studieren">
         <div class="container">
-            <div class="section-legend"><h4>Studieren</h4></div>
+            <div class="section-legend">
+                <h4>Studieren</h4>
+            </div>
             <p>Ingenieurwissenschaften, Medizin oder Philosophie – Deutschland ist ein beliebtes Studienland.
                 Ein deutscher Hochschulabschluss wird von Arbeitgebern weltweit geschätzt.</p>
 
@@ -508,11 +488,13 @@
                 Wer also in Europa beinahe umsonst studieren will, ist hier richtig.
                 Trotzdem summieren sich Kosten für Miete, Lebensmittel und Mobilität schnell.
                 Wer sparen will, sollte schon bei der Studienortwahl darauf achten.</p>
-       
+
             <div class="row justify-content-center">
                 <div class="card-deck pb-5">
                     <div class="col text-center">
-                        <div class="card-legend"><h4>Fakten</h4></div>
+                        <div class="card-legend">
+                            <h4>Fakten</h4>
+                        </div>
                         <div class="card border-bottom" style="background: #FCE535; ">
                             <div class="card-body">
                                 <h3 class="card-title text-white font-weight-bold">375.000</h3>
@@ -530,9 +512,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col text-center">
-                       
-                    </div> -->
                 </div>
 
             </div>
@@ -540,32 +519,52 @@
 
     </section>
 
-    <section>
-        <div class="container">
-            <div class="section-legend"><h4>Karriere machen</h4></div>
+    <section data-aos="slide-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <div class="container" id="karriere">
+            <div class="section-legend">
+                <h4>Karriere machen</h4>
+            </div>
             <p>Viele deutsche Unternehmen haben internationale Standorte.
                 Gute Deutschkenntnisse erhöhen die Chancen auf eine Karriere bei einem
                 deutschen Unternehmen in deinem Land.</p>
+
+                <div class="text-center pb-5">
+                    <img src="./images/german-companies.jpg" width="600px" height="500px" alt="">
+                </div>
+                
+                <!-- <img src="./images/work-for-german-company.jpg" alt=""> -->
         </div>
     </section>
 
-    <section>
+    <section data-aos="slide-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div class="container">
-            <div class="section-legend"><h4>Forschen</h4></div>
+            <div class="section-legend">
+                <h4>Forschen</h4>
+            </div>
             <p>
                 Deutsch ist die zweitwichtigste Sprache in der Wissenschaft. Grundlagen der deutschen Sprache sind
-                für viele Forschungsfelder von Vorteil.igar
+                für viele Forschungsfelder von Vorteiligar
             </p>
+
+            <div class="text-center pb-5">
+                <img src="./images/research.jpg" width="600px" height="500px" alt="">
+            </div>
         </div>
     </section>
 
-    <section>
+    <section data-aos="slide-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
         <div class="container">
-            <div class="section-legend"><h4>In Deutschland arbeiten</h4></div>
+            <div class="section-legend">
+                <h4>In Deutschland arbeiten</h4>
+            </div>
             <p>
                 Gute Arbeitsbedingungen und Deutschlands wirtschaftliche Stärke ziehen Fachkräfte aus aller Welt an.
                 Nach den USA ist Deutschland weltweit das zweitbeliebteste Land für Arbeitskräfte.
             </p>
+
+            <div class="text-center pb-5">
+                <img src="./images/germany-work.jpg" width="400px" height="300px" alt="">
+            </div>
         </div>
 
     </section>
@@ -581,6 +580,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
