@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background: url(/images/black_background.png);
+  background: url(./images/black_background.png);
 }
 
 .section-legend {
